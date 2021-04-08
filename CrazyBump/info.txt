@@ -1,0 +1,39 @@
+CrazyBump
+Copyright (c) 2007, Ryan Clark
+All rights reserved.  Redistribution of CrazyBump is not permitted. If you want to share the software, please link to the official download page instead.
+
+
+
+
+Thanks are hereby given to the following humans:
+  James Houx, for suggestions about photo-recognition.
+  Gary Bergeron, for suggestions about normal map detail controls.
+  Vitaliy Naymushin, for suggestions about ambient occlusion.
+  Eric Chadwick, for suggestions about diffuse map creation.
+  Nikolaus Gebhardt, for his generous work creating the Irrlicht engine.
+  Julie Gilberg, for years of listening to my half-baked ideas.
+  ...and all the other helpful humans whose names escape me right now.
+
+
+
+CrazyBump uses libpng, zlib, and code written by the independent jpeg group.  Thanks are hereby given to the authors.
+
+CrazyBump uses Devil, an excellent nice library which is licensed under the LGPL.
+(You'll find the source to DEVIL in the program folder, along with a copy of the LGPL.)
+
+CrazyBump also uses devil.net, whose license appears below
+
+----------------------------------------------------------------------------------------------------------------
+The following notice applies to DevIL.net only; It does not apply to CrazyBump.
+----------------------------------------------------------------------------------------------------------------
+DevIL.NET  (DevIL.Net.dll)
+Copyright (c) 2005, Marco Mastropaolo
+All rights reserved.
+
+Redistribution of DevIL.net and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    * Neither the name of DevIL.NET nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
