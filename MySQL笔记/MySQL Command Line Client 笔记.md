@@ -1,4 +1,4 @@
-## MySQL
+## MySQL 控制台笔记
 
 #### 登录:
 
@@ -128,7 +128,34 @@
 
 - date_format(); - 日期格式化 例子 : select date_format(payment_date,'%y/%m/%d') from payment limit 20;
 
-  ​                                                                                              名称               格式             
+  ​                                                                                              名称               格式              
   
-  
+
+#### 表逻辑
+
+- select distinct first_name from actor order by first_name; - 表去重复
+
+  ​          去重复关键字 名称          表名    正向排序
+
+- where条件1: select * from category where category_id <>1; - 不等于 包括 > < = >= <= <> !=
+
+- where条件2: select * from category where category_id <>1 and name = 'New'; - 并且 and相当于&&
+
+- where条件3: select * from category where category_id = 1 or name = 'New'; - 或者 or相当于||
+
+- where条件4: and优先级>or 最好使用()表示优先
+
+- where条件5: select * from category where category_id = 1 or not  name != 'New'; - 非 not 相当于!
+
+- where条件6: select * from category where category_id is not null; - 是否为null, is 仅用于is null或is not null
+
+- where条件7: select * from category where category_id in(4,8,12); - 范围查询 查询()的条件 可用not in()
+
+- where条件8: select * from category where category_id between 5 and 7; - 范围查询 配合and使用
+
+- where条件9: select * from category where name like 'A%'; - 模糊搜索,内容是A开头,后面跟多个字符
+
+- where条件10: select * from category where name like 'A_'; - 模糊搜索, 内容是A开头,后面跟几位,用下划线代表几位
+
+- where条件11: select * from category where name like '%i%'; - 模糊搜索,内容是i前面有多个字符,后面也有多个字符
 
