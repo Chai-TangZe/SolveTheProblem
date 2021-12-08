@@ -1,0 +1,33 @@
+#others
+.idea/
+.ngui/
+.vscode/
+
+# Unity generated
+Library/
+Debug/
+UnityPackageManager/
+Builds/
+Temp/
+obj/
+*.log
+*.exe
+BianDianZhanPC_Data/
+
+# Visual Studio / MonoDevelop generated
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.userprefs
+
+# OS generated
+.DS_Store
+# rider
+*.user
+#ruby
+*.rb
+
+/Assets/Plugins/Editor/JetBrains/
+/Assets/Plugins/Editor/JetBrains.meta
